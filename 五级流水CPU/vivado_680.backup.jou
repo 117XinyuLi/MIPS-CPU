@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec  4 15:54:23 2023
+# Process ID: 680
+# Current directory: C:/Users/13151/Desktop/CPU3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5112 C:\Users\13151\Desktop\CPU3\CPU.xpr
+# Log file: C:/Users/13151/Desktop/CPU3/vivado.log
+# Journal file: C:/Users/13151/Desktop/CPU3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13151/Desktop/CPU3/CPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_CPU.tcl
+import_files -norecurse C:/Users/13151/Desktop/step_into_mips-master/step_into_mips-master/src/lab_4/floprc.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+import_files -norecurse C:/Users/13151/Desktop/step_into_mips-master/step_into_mips-master/src/lab_4/mux3.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/13151/Desktop/step_into_mips-master/step_into_mips-master/src/lab_4/hazard.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/13151/Desktop/step_into_mips-master/step_into_mips-master/src/lab_4/flopenrc.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+import_files -norecurse C:/Users/13151/Desktop/step_into_mips-master/step_into_mips-master/src/lab_4/eqcmp.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
+launch_simulation
+source sim_CPU.tcl
+close_sim
