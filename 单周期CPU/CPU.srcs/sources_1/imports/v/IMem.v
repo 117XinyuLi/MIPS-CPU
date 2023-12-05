@@ -3,8 +3,8 @@
 
 `define DATA_WIDTH 32
 module IMem(
-    input [`DATA_WIDTH-1:0] Addr,
-    output [`DATA_WIDTH-1:0] RD, CLK);
+    input [`DATA_WIDTH-1:0] Addr, CLK,
+    output [`DATA_WIDTH-1:0] RD);
     
     parameter IMEM_SIZE = 64; 
     reg [`DATA_WIDTH-1:0] RAM [IMEM_SIZE-1:0];
