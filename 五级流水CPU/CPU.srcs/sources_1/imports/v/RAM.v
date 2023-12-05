@@ -33,4 +33,6 @@ module RAM(WriteData, ReadData, Addr, R_W, CLK);
         end
     end
 
+    assign ReadData = Data_i;
+
 endmodule
