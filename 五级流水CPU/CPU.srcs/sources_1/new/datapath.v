@@ -13,7 +13,7 @@ module datapath(
         input wire regwriteM, memtoregE,
         output wire[1:0] forwardAE, forwardBE,
         input wire regwriteE,
-        output wire pc_src
+        output wire pcsrc
     );
 
     wire [31:0] PC_plus4, rd1D, imm_extend, PC_next;
