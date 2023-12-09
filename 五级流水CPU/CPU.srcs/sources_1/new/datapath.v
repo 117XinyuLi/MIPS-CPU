@@ -43,7 +43,7 @@ module datapath(
 
     // mux for pc_next
     mux2 #(32) mux2_pc_next(
-        .a(PC_branchM),
+        .a(PC_branch),
         .b(PC_plus4),
         .s(pcsrc),
         .y(PC_next)
