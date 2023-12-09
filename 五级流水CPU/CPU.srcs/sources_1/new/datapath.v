@@ -112,13 +112,13 @@ module datapath(
     );
 
     // D-E
-    flopenrc #(32) r3(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(rd1D),.q(rd1E));
-    flopenrc #(32) r4(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(rd2D),.q(rd2E));
-    flopenrc #(5) r5(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(rtD),.q(rtE));
-    flopenrc #(5) r6(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(rdD),.q(rdE));
-    flopenrc #(32) r7(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(PC_plus4D),.q(PC_plus4E));
-    flopenrc #(32) r8(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(imm_extend),.q(imm_extendE));
-    flopenrc #(5) r19(.clk(clk),.rst(rst),.en(~flushE),.clear(1'b0),.d(rsD),.q(rsE));
+    flopenrc #(32) r3(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(rd1D),.q(rd1E));
+    flopenrc #(32) r4(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(rd2D),.q(rd2E));
+    flopenrc #(5) r5(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(rtD),.q(rtE));
+    flopenrc #(5) r6(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(rdD),.q(rdE));
+    flopenrc #(32) r7(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(PC_plus4D),.q(PC_plus4E));
+    flopenrc #(32) r8(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(imm_extend),.q(imm_extendE));
+    flopenrc #(5) r19(.clk(clk),.rst(rst),.en(1'b1),.clear(flushE),.d(rsD),.q(rsE));
 
 
     mux3 #(32) srcA_sel(rd1E, wd3, ALU_resultM, forwardAE, rd1);
