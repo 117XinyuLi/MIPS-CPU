@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 10 20:11:37 2023
+# Process ID: 23312
+# Current directory: C:/Users/13151/Desktop/CPU2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16048 C:\Users\13151\Desktop\CPU2\CPU.xpr
+# Log file: C:/Users/13151/Desktop/CPU2/vivado.log
+# Journal file: C:/Users/13151/Desktop/CPU2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/13151/Desktop/CPU2/CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 849.656 ; gain = 71.996

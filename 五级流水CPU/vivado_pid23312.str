@@ -1,0 +1,91 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 23312
+License: Customer
+
+Current time: 	Sun Dec 10 20:11:52 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 68 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	13151
+User home directory: C:/Users/13151
+User working directory: C:/Users/13151/Desktop/CPU2
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado/Vivado
+HDI_APPROOT: D:/Vivado/Vivado/2017.4
+RDI_DATADIR: D:/Vivado/Vivado/2017.4/data
+RDI_BINDIR: D:/Vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/13151/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/13151/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/13151/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/13151/Desktop/CPU2/vivado.log
+Vivado journal file location: 	C:/Users/13151/Desktop/CPU2/vivado.jou
+Engine tmp dir: 	C:/Users/13151/Desktop/CPU2/.Xil/Vivado-23312-LAPTOP-9GTGQ35O
+
+GUI allocated memory:	189 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 618 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 49 MB (+48822kb) [00:00:05]
+// [Engine Memory]: 544 MB (+418720kb) [00:00:05]
+// Opening Vivado Project: C:\Users\13151\Desktop\CPU2\CPU.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/13151/Desktop/CPU2/CPU.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+8219kb) [00:00:08]
+// [Engine Memory]: 618 MB (+49058kb) [00:00:08]
+// Tcl Message: open_project C:/Users/13151/Desktop/CPU2/CPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+2393kb) [00:00:10]
+// [GUI Memory]: 68 MB (+456kb) [00:00:10]
+// [GUI Memory]: 79 MB (+7752kb) [00:00:10]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 635 MB. GUI used memory: 38 MB. Current time: 12/10/23 8:11:56 PM CST
+// [Engine Memory]: 651 MB (+1941kb) [00:00:11]
+// Project name: CPU; location: C:/Users/13151/Desktop/CPU2; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 849.656 ; gain = 71.996 
+dismissDialog("Open Project"); // bs (cj)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cj)
+selectButton(PAResourceEtoH.FileSetPanel_RELOAD, "Reload..."); // h (cZ, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (cj)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ac (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 195 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
