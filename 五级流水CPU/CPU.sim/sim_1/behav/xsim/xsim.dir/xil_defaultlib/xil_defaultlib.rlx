@@ -1,0 +1,25 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/13151/Desktop/CPU2/CPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/adder.v,1701593806,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/datapath.v,,adder,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/mux2.v,1701602681,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/mux3.v,,mux2,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/signext.v,1701593596,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/sl2.v,,signext,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/sl2.v,1701593626,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/mips.v,,sl2,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/eqcmp.v,1628083831,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/flopenrc.v,,eqcmp,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/flopenrc.v,1701697997,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/floprc.v,,flopenrc,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/floprc.v,1701676688,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/hazard.v,,floprc,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/hazard.v,1702181090,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/mux2.v,,hazard,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/mux3.v,1701692682,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/pc.v,,mux3,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/pc.v,1701698184,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/signext.v,,pc,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/ALU.v,1701683618,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/ALUDec.v,,ALU,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/ALUDec.v,1701687749,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/Controller.v,,ALUDec,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/Controller.v,1701701998,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/IMem.v,,Controller,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/IMem.v,1702093992,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/MainDec.v,,IMem,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/MainDec.v,1701687698,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/RAM.v,,MainDec,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/RAM.v,1701786503,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/RegFile.v,,RAM,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/v/RegFile.v,1701700355,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_3/adder.v,,RegFile,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/datapath.v,1702203271,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/imports/lab_4/eqcmp.v,,datapath,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/mips.v,1702040424,verilog,,C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/sim_CPU.v,,mips,,,,,,,,
+C:/Users/13151/Desktop/CPU2/CPU.srcs/sources_1/new/sim_CPU.v,1702104778,verilog,,,,sim_CPU,,,,,,,,
